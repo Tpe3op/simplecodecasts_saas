@@ -2,15 +2,15 @@
  <div class="col-md-4 col-md-offset-4">
   <div class="well">
      <%= form_for @contact do |f| %>
-     <div class="form-grouop">
+     <div class="form-group">
        <%= f.label :name %>
        <%= f.text_field :name, class: 'form-control' %>
      </div>
-      <div class="form-grouop">
+      <div class="form-group">
        <%= f.label :email %>
        <%= f.email_field :email, class: 'form-control' %>
      </div>
-      <div class="form-grouop">
+      <div class="form-group">
        <%= f.label :coments %>
        <%= f.text_area :comments, class: 'form-control' %>
      </div>
