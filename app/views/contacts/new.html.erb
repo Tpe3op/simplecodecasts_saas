@@ -1,0 +1,17 @@
+<div class="row">
+    <%= form_for @contact do |f| %>
+    <div class="form-grouop">
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control' %>
+    </div>
+     <div class="form-grouop">
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+    </div>
+     <div class="form-grouop">
+      <%= f.label :coments %>
+      <%= f.text_area :coments, class: 'form-control' %>
+    </div>
+      <%= f.submit 'Submit' , class: 'btn btn-default' %>
+      <% end %>
+</div>
